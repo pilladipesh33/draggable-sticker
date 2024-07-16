@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+
+.stickerTitle {
+  font-size: 18dvw;
+  text-align: center;
+  color: #52525b;
+  position: relative;
+  z-index: 0;
+}
+
+.dot {
+  color: #d97706;
+}
+
+.stickerImage {
+  position: absolute;
+  width: 12rem;
+  padding: 1px;
+}
